@@ -1,0 +1,63 @@
+/* This will be applied to about and index and contact pages*/
+
+/*Main Page text stylers like colors and fonts (and background)*/
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    color: burlywood;
+}
+
+.contacttext{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.brown{
+    color: burlywood;
+}
+
+.backwhite {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.intro{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*Specific classes to change my about me page, and the elements within my resume lists*/
+
+li{
+    padding-bottom: 10px;
+}
+
+.paddingspace{
+    padding-bottom: 20px;
+}
+
+.linkss a {
+    text-align: center;
+    padding: 12px;
+    color: blueviolet;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.linkss a:hover{
+    text-decoration: underline;
+    color: lightseagreen;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.rinfo{
+    float: right;
+    font-style: italic;
+}
+
+.bigtext{
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: underline;
+}
